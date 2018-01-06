@@ -1,3 +1,6 @@
+/*
+Java program demonstrating the implementation of singly linked list..
+*/
 class Link
 {
 	public int iData;
@@ -65,7 +68,6 @@ class LinkedList
 		{
 			current=current.next;
 		}
-		//System.out.println(current);
 		current.next=null;
 	}
 	
